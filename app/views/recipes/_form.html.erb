@@ -1,0 +1,6 @@
+<%= form_for(@recipe) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+
+    <%= f.button 'Create Recipe', type: 'submit' %>
+<% end %>
